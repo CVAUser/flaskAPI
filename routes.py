@@ -1,6 +1,6 @@
-from api.urls import app
+from app import app
 
 @app.route('/')
 @app.route('/index')
 def index():
-    return "Hello, Flask!"
+    return "Hello, Flask App!"
